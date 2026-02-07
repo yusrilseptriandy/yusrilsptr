@@ -1,19 +1,20 @@
-// src/ContactModal.js
+import { motion, AnimatePresence, type Variants } from 'framer-motion';
 
-import { motion, AnimatePresence } from 'framer-motion';
-
-// Variabel animasi tetap sama, sudah bagus untuk efek clean
 const backdropVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
 };
 
-const modalVariants = {
+const modalVariants: Variants = {
     hidden: { y: '-100vh', opacity: 0 },
     visible: {
-        y: '0',
+        y: 0,
         opacity: 1,
-        transition: { delay: 0.1, type: 'spring', stiffness: 100 }, // Sedikit lebih kencang untuk kesan lebih responsif
+        transition: {
+            delay: 0.1,
+            type: 'spring',
+            stiffness: 100,
+        },
     },
     exit: { y: '-100vh', opacity: 0 },
 };
