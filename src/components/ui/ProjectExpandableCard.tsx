@@ -48,7 +48,7 @@ const projects: Project[] = [
                         <li>MUX Integration for Course Management</li>
                         <li>Support for Premium and Free Courses</li>
                         <li>Advanced Video Content Protection to Prevent Piracy</li>
-                        <li>Seamless Integration with Xendit Payment Gateway</li>
+                        <li>Will be integrated with Xendit</li>
                         <li>Fully Responsive User Interface for All Devices</li>
                     </ul>
                 </div>
