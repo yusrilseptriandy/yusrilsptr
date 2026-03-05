@@ -16,7 +16,7 @@ const Navbar = () => {
                 </h2>
             </div>
             <a
-                href="https://drive.google.com/file/d/1SB86QAM1Bc9kng3fqrMxdNFTuOXxJkEZ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1TET0m19n5xxB-dNYBCNAYi_hG9mQsU11/view?usp=sharing"
                 target="_blank"
                 className="bg-white px-3 neo-border rounded-lg text-sm font-extrabold neo-button-shadow hover:bg-accent-yellow hover:text-neo-black transition-colors h-8 font-space flex items-center justify-center gap-2 cursor-pointer"
             >
